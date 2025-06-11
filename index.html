@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expandable Boxes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-box">
+            <div class="bogo-text"><span class="line"></span>YAY! It's BOGO<span class="line"></span></div>
+            <div class="boxes-grid">
+                <div class="box" data-title="Feature 1">
+                    <input type="radio" name="box-select" class="box-radio">
+                    <div class="box-content">
+                        <div class="left-content">
+                            <div class="unit-row">
+                                <span>1 Unit</span>
+                                <span class="discount">10% Off</span>
+                            </div>
+                            <span class="standard-price">Standard Price</span>
+                            <div class="size-selector">
+                                <div class="selector-row">
+                                    <span class="number">#1</span>
+                                    <div class="selects-container">
+                                        <div class="select-group">
+                                            <span class="selector-label">Size</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-group">
+                                            <span class="selector-label">Colour</span>
+                                            <select class="color-select">
+                                                <option>Black</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="selector-row">
+                                    <span class="number">#2</span>
+                                    <div class="selects-container">
+                                        <select class="size-select">
+                                            <option>S</option>
+                                        </select>
+                                        <select class="color-select">
+                                            <option>Colour</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-content">
+                            <div class="price">$10.00 USD</div>
+                            <div class="original-price">$24.00 USD</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box most-popular" data-title="Feature 2">
+                    <input type="radio" name="box-select" class="box-radio">
+                    <div class="box-content">
+                        <div class="left-content">
+                            <div class="unit-row">
+                                <span>2 Unit</span>
+                                <span class="discount">20% Off</span>
+                            </div>
+                            <div class="most-popular-text">Most Popular</div>
+                            <div class="size-selector">
+                                <div class="selector-row">
+                                    <span class="number">#1</span>
+                                    <div class="selects-container">
+                                        <div class="select-group">
+                                            <span class="selector-label">Size</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-group">
+                                            <span class="selector-label">Colour</span>
+                                            <select class="color-select">
+                                                <option>Black</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="selector-row">
+                                    <span class="number">#2</span>
+                                    <div class="selects-container">
+                                        <select class="size-select">
+                                            <option>S</option>
+                                        </select>
+                                        <select class="color-select">
+                                            <option>Colour</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-content">
+                            <div class="price">$18.00 USD</div>
+                            <div class="original-price">$24.00 USD</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-title="Feature 3">
+                    <input type="radio" name="box-select" class="box-radio">
+                    <div class="box-content">
+                        <div class="left-content">
+                            <div class="unit-row">
+                                <span>3 Unit</span>
+                                <span class="discount">30% Off</span>
+                            </div>
+                            <div class="size-selector">
+                                <div class="selector-row">
+                                    <span class="number">#1</span>
+                                    <div class="selects-container">
+                                        <div class="select-group">
+                                            <span class="selector-label">Size</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-group">
+                                            <span class="selector-label">Colour</span>
+                                            <select class="color-select">
+                                                <option>Black</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="selector-row">
+                                    <span class="number">#2</span>
+                                    <div class="selects-container">
+                                        <select class="size-select">
+                                            <option>S</option>
+                                        </select>
+                                        <select class="color-select">
+                                            <option>Colour</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-content">
+                            <div class="price">$24.00 USD</div>
+                            <div class="original-price">$24.00 USD</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-section">
+                <div class="delivery-info">
+                    <span class="free-delivery">Free Delivery</span>
+                    <span class="total-price">Total : $18.00 USD</span>
+                </div>
+                <button class="add-to-cart-btn">
+                    <i class="fas fa-plus"></i>
+                    Add to Cart
+                </button>
+                <div class="powered-by">@ Powered by Pumper</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
